@@ -16,7 +16,18 @@ draw = function(){
     text("YOUR", 176, 200);
     text("MESSAGE", 159, 229); 
   }
+  if (answer == 2) {
+    text("TODAYS", 176, 200);
+    text("AMAZING", 159, 229); 
+  }
+  if (answer == 3) {
+    text("TODAYS", 176, 200);
+    text("ALRIGHT", 159, 229); 
+  }
   
+  if(mousePressed){
+  text("Yasss", random(0,600), rand)
+  }
 };
 
 mouseClicked = function(){
