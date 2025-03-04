@@ -25,9 +25,26 @@ draw = function(){
     text("ALRIGHT", 159, 229); 
   }
   
+    if (answer == 4) {
+    text("TODAYS", 176, 200);
+    text("THE BEST DAY EVER", 159, 229); 
+  }
+  
   if(mousePressed){ 
   text("Yasss", random(0,600), random(0,400));
   }
+  
+  
+      fill(0, 0, 0);
+    textSize(20);
+   
+    
+    if(mousePressed){
+text("💗", 39, 200);
+} else{
+text("✨", 39, 200);
+}
+
 };
 
 mouseClicked = function(){
@@ -38,7 +55,11 @@ mouseClicked = function(){
   
 
 
-  
+
+
+
+
+
   
   
   
